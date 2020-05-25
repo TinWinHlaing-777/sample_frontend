@@ -23,3 +23,18 @@
 .row{
     margin-top: 30px;
 }
+label{
+    font-weight: bold;
+    font-size: 18px;
+}
+#small_title h5{
+    font-weight: bold;
+    border-bottom: 2px solid gray;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.btn{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px 30px;
+}

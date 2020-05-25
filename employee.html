@@ -9,27 +9,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="text-center" id="header">
-            <h1>Curriculum Vitae</h1>
-        </div>
-    </div>   
-    <div class="container">
-        <div class="text-left" id="sub_header">
-            <h3>Contact Information</h3>
-        </div>
-        <div class="row">
-            <div class="col-sm-6">
-                <form method="post">
+    <form method="post">
+        <div class="container">
+            <div class="text-center" id="header">
+                <h1>Curriculum Vitae</h1>
+            </div>
+        </div>   
+        <div class="container">
+            <div class="text-left" id="sub_header">
+                <h3>Contact Information</h3>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
                     <div class="form-group">
                         <label for="fname">First Name</label>
                         <input type="text" class="form-control" id="fname" placeholder="Enter First Name" required>
                     </div>
-                   <div class="form-group">
-                       <label for="address">Address</label>
-                       <input type="text" class="form-control" id="address" placeholder="Enter Address">
-                   </div>
-                   <div class="form-group">
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <input type="text" class="form-control" id="address" placeholder="Enter Address">
+                    </div>
+                    <div class="form-group">
                         <label for="zip">State Zip Code</label>
                         <input type="number" class="form-control" id="zip" placeholder="Enter State Zip Code">
                     </div>
@@ -37,37 +37,33 @@
                         <label for="email">Email</label>
                         <input type="email" class="form-control" id="email" placeholder="Enter Email address">
                     </div>
-                </form>
-            </div>
-            <div class="col-sm-6">
-                <form method="post">
-                    <div class="form-group">
-                        <label for="lname">Last Name</label>
-                        <input type="text" class="form-control" id="lname" placeholder="Enter Last Name">
-                    </div>
-                    <div class="form-group">
-                        <label for="city">City</label>
-                        <input type="text" class="form-control" id="city" placeholder="Enter your city">
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Phone Number</label>
-                        <input type="number" class="form-control" id="phone" placeholder="Enter your phone number">
-                    </div>
-                    <div class="form-group">
-                        <label for="portfolio">Portfolio link</label>
-                        <input type="text" class="form-control" id="portfolio" placeholder="Enter the link of your personal site">
-                    </div>
-                </form>
+                </div>
+                <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="lname">Last Name</label>
+                            <input type="text" class="form-control" id="lname" placeholder="Enter Last Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="city">City</label>
+                            <input type="text" class="form-control" id="city" placeholder="Enter your city">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="number" class="form-control" id="phone" placeholder="Enter your phone number">
+                        </div>
+                        <div class="form-group">
+                            <label for="portfolio">Portfolio link</label>
+                            <input type="text" class="form-control" id="portfolio" placeholder="Enter the link of your personal site">
+                        </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="text-left" id="sub_header">
-            <h3>Academic History</h3>
-        </div>
-        <div class="row">
-            <div class="col-sm-6">
-                <form method="post">
+        <div class="container">
+            <div class="text-left" id="sub_header">
+                <h3>Academic History</h3>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
                     <div class="form-group">
                         <label for="university">University</label>
                         <input type="text" class="form-control" id="university" placeholder="Enter the university that you studied">
@@ -80,10 +76,8 @@
                         <label for="gpa">GPA</label>
                         <input type="number" class="form-control" id="gpa" placeholder="Enter final GPA">
                     </div>
-                </form>
-            </div>
-            <div class="col-sm-6">
-                <form method="post">
+                </div>
+                <div class="col-sm-6">
                     <div class="form-group">
                         <label for="degree">Degree / Qualification</label>
                         <input type="text" class="form-control" id="degree" placeholder="Enter your degree or qualification">
@@ -96,11 +90,160 @@
                         <label for="honors">Relivent Honors or Academic Recognition</label>
                         <input type="file" class="form-control-file" id="honors">
                     </div>
-                </form>
+                </div>
             </div>
         </div>
-    </div>
-
+        <div class="container">
+            <div class="text-left" id="sub_header">
+                <h3>Professional Experience</h3>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="experience">Write Some Experience of your Profession</label>
+                    <textarea name="text" id="experience" class="form-control" cols="30" rows="10" placeholder="Write you Experience"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="text-left" id="sub_header">
+                <h3>Qualification and Skills</h3>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <label for="hard">Attach a PDF file that you write about your qualification and skill</label>
+                    <input type="file" id="hard" class="form-control-file">
+                </div>
+                <div class="col-sm-6">
+                    <label for="soft">Attach some files that you have developed throughout your career (if possible)</label>
+                    <input type="file" id="soft" class="form-control-file">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="text-left" id="sub_header">
+                <h3>Awards and Honors</h3>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <label for="awards">Write some Words of Awards and Honors</label>
+                    <textarea id="awards" class="form-control" cols="30" rows="10">Write Here</textarea>
+                </div>
+                <div class="col-sm-6">
+                    <label for="attach">Attach files of awards and honors</label>
+                    <input type="file" id="attach">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="text-left" id="sub_header">
+                <h3>Publications and Presentations</h3>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="text-center" id="small_title">
+                        <h5>Publications</h5>
+                    </div>
+                    <div class="form-group">
+                        <label for="book">Book</label>
+                        <textarea id="book" class="form-control" placeholder="Book Title, Author, Co-author, etc:" cols="30" rows="5"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="reviewd">Peer-reviewed Journals</label>
+                        <textarea id="reviewd" class="form-control" placeholder="Write Some Review of Book" cols="30" rows="5"></textarea>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="text-center" id="small_title">
+                        <h5>Presentations</h5>
+                    </div>
+                    <div class="form-group">
+                        <label for="presentation">Conference Presentations</label>
+                        <textarea id="presentation" class="form-control" placeholder="Write Conference Presentation of your Publications" cols="30" rows="13"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="text-left" id="sub_header">
+                <h3>Professional Associations</h3>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="association">Name of Associations</label>
+                        <input type="text" class="form-control" placeholder="Name" id="association">
+                    </div>
+                    <div class="form-group">
+                        <label for="location">Location of Associations</label>
+                        <input type="text" class="form-control" placeholder="Location" id="location">
+                    </div>
+                    <div class="form-group">
+                        <label for="active">Active Data of Associations</label>
+                        <input type="date" class="form-control" id="active">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="text-left" id="sub_header">
+                <h3>Grants and Scholarships</h3>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="grants_or_scholarship">Name of Grants and Scholarships</label>
+                        <input type="text" class="form-control" placeholder="Grants or Scholarships" id="grants_or_scholarship">
+                    </div>
+                    <div class="form-group">
+                        <label for="award_date">Date of Awards</label>
+                        <input type="date" id="award_date" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="institution">Name of Institution that provied awards</label>
+                        <input type="text" class="form-control" placeholder="Name of Institution" id="institution">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="text-left" id="sub_header">
+                <h3>Licenses and Certifications</h3>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="certifications">Name of Licenses and Certifications</label>
+                        <input type="text" class="form-control" placeholder="Licenses and Certifications" id="certifications">
+                    </div>
+                    <div class="form-group">
+                        <label for="certificate_date">Date of you earn</label>
+                        <input type="date" id="certificate_date" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="institution">Name of Institution that awards licenses and certificates</label>
+                        <input type="text" class="form-control" placeholder="Name of Institution" id="institution">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="text-left" id="sub_header">
+                <h3>Attach Image</h3>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="image">Attach your Image</label>
+                    <input type="file" id="image" required>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </form>
+    
  
 </body>
 </html>
